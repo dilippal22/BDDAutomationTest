@@ -1,4 +1,4 @@
-package parallel;
+package com.qa.hooks;
 
 import java.util.Properties;
 

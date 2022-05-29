@@ -1,4 +1,4 @@
-package parallel;
+package com.qa.testrunner;
 
 import org.testng.annotations.DataProvider;
 
@@ -15,7 +15,7 @@ import io.cucumber.testng.CucumberOptions;
 		features = { "src/test/resources/parallel" }
 )
 
-public class ParallelRun extends AbstractTestNGCucumberTests {
+public class ParallelRunner extends AbstractTestNGCucumberTests {
 	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {

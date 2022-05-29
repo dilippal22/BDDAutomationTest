@@ -1,4 +1,4 @@
-package parallel;
+package com.qa.stepdefinition;
 
 import java.io.IOException;
 import java.util.List;
@@ -7,8 +7,8 @@ import java.util.Map;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.testng.Assert;
 
-import com.pages.ContactUsPage;
 import com.qa.factory.DriverFactory;
+import com.qa.pages.ContactUsPage;
 import com.qa.util.ExcelReader;
 
 import io.cucumber.java.en.Given;

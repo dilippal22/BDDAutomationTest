@@ -1,4 +1,4 @@
-package testrunners;
+package com.qa.testrunner;
 
 import org.junit.runner.RunWith;
 

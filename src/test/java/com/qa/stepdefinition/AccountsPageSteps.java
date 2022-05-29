@@ -1,13 +1,13 @@
-package parallel;
+package com.qa.stepdefinition;
 
 import java.util.List;
 import java.util.Map;
 
 import org.junit.Assert;
 
-import com.pages.AccountsPage;
-import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
+import com.qa.pages.AccountsPage;
+import com.qa.pages.LoginPage;
 
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.en.Given;

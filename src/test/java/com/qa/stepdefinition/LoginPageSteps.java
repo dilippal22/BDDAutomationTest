@@ -1,9 +1,9 @@
-package parallel;
+package com.qa.stepdefinition;
 
 import org.junit.Assert;
 
-import com.pages.LoginPage;
 import com.qa.factory.DriverFactory;
+import com.qa.pages.LoginPage;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
